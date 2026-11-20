@@ -21,20 +21,28 @@
 
 <h2 align="center"> <em>About me</em> </h2>
 
-<img src="astronaut.gif" width="220" align="right" style="margin-left: 20px; margin-bottom: 20px;" />
-
-<p>
-  Hello There! <em><b> I'm Rithika Sri </b></em>, a Computer Science student and software engineer focused on <b>Data Engineering &amp; Distributed Systems</b>. I enjoy understanding how complex systems fit together, optimizing data locality, and architecting robust, verifiable data pipelines. My core interests include <b>PySpark, Google BigQuery, AST-level code analysis with Tree-sitter, and high-performance local-first architectures</b>.
-</p>
-
-<br/>
-
-<p align="center">
-   🎓 &nbsp; <em><b> Computer Science Undergraduate </b></em> <br/>
-   ⚡ &nbsp; <em><b> Data Engineering &amp; Distributed Systems </b></em> <br/>
-   🔍 &nbsp; <em><b> AST Parsing &amp; Compiler Tooling (Tree-sitter) </b></em> <br/>
-   🛡️ &nbsp; <em><b> Fintech &amp; Digital Public Infrastructure (Account Aggregator) </b></em> <br/>
-</p>
+<table>
+  <tr>
+    <td width="65%" valign="top">
+      <p>
+        Hello There! <em><b>I'm Rithika Sri</b></em>, a Computer Science student and software engineer focused on <b>Data Engineering &amp; Distributed Systems</b>.
+      </p>
+      <p>
+        I enjoy understanding how complex systems fit together, optimizing data locality, and architecting robust, verifiable data pipelines. My core focus lies in turning theoretical system concepts into resilient software—from <b>distributed ETL architectures (PySpark, BigQuery)</b> to <b>AST-level code analysis (Tree-sitter)</b> and <b>local-first storage engines</b>.
+      </p>
+      <br/>
+      <p>
+        🎓 &nbsp; <b>CS Undergraduate</b> &nbsp;|&nbsp; <em>Specializing in Systems Architecture</em><br/>
+        ⚡ &nbsp; <b>Data Engineering</b> &nbsp;|&nbsp; <em>Distributed Pipelines with PySpark &amp; BigQuery</em><br/>
+        🔍 &nbsp; <b>Compiler Tooling</b> &nbsp;|&nbsp; <em>AST Syntax Analysis with Tree-sitter</em><br/>
+        🛡️ &nbsp; <b>Fintech Protocols</b> &nbsp;|&nbsp; <em>India's RBI Account Aggregator Framework</em>
+      </p>
+    </td>
+    <td width="35%" align="center" valign="middle">
+      <img src="coding.gif" width="100%" alt="Coding developer animation" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 <br/>
