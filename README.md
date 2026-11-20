@@ -66,36 +66,23 @@
 
 <h2 align="center"> <em> Featured Projects </em> </h2>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/Rithikasri-code/gig-credit-passport">gig-credit-passport</a></h3>
-      <p><b>Worker-owned financial identity &amp; explainable credit scoring engine.</b></p>
-      <p>Built on India's RBI Account Aggregator protocol with supplementary OCR invoice cross-verification and non-predatory credit scoring algorithms.</p>
-      <p><code>Python</code> · <code>FastAPI</code> · <code>Alembic</code> · <code>PostgreSQL</code> · <code>Docker</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔍 <a href="https://github.com/Rithikasri-code/impact-engine">impact-engine</a></h3>
-      <p><b>Semantic code-search &amp; blast-radius impact analysis engine.</b></p>
-      <p>Extracts function AST syntax trees for Python &amp; Go using Tree-sitter, resolving call-graph dependencies to predict regression risk on commits.</p>
-      <p><code>Python</code> · <code>Go</code> · <code>Tree-sitter</code> · <code>Graph DB</code> · <code>AST</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/Rithikasri-code/flat-sql">flat-sql</a></h3>
-      <p><b>Relational SQL database engine running over flat JSON files.</b></p>
-      <p>Zero-dependency SQL query engine featuring full AST query parsing, transactional locks, B-tree indexes, and a web admin suite.</p>
-      <p><code>PHP</code> · <code>Query Planner</code> · <code>B-Tree</code> · <code>JSON Storage</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏃 <a href="https://github.com/Rithikasri-code/metro-runner">metro-runner</a></h3>
-      <p><b>High-performance 3D endless runner in browser WebGL.</b></p>
-      <p>Deterministic 60 FPS runner simulation with fixed-step physics integration, procedural track generation, and automated Playwright E2E tests.</p>
-      <p><code>TypeScript</code> · <code>Three.js</code> · <code>Vite</code> · <code>Playwright</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Rithikasri-code/gig-credit-passport">
+    <img src="card-gig-credit.svg" alt="Gig Credit Passport" width="48%" />
+  </a>
+  <a href="https://github.com/Rithikasri-code/impact-engine">
+    <img src="card-impact-engine.svg" alt="Impact Engine" width="48%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Rithikasri-code/flat-sql">
+    <img src="card-flat-sql.svg" alt="Flat SQL" width="48%" />
+  </a>
+  <a href="https://github.com/Rithikasri-code/metro-runner">
+    <img src="card-metro-runner.svg" alt="Metro Runner" width="48%" />
+  </a>
+</p>
 
 <br/>
 
