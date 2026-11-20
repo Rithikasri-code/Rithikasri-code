@@ -1,101 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 320" width="100%" height="320">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#190e28" />
-      <stop offset="50%" stop-color="#2a1742" />
-      <stop offset="100%" stop-color="#150a24" />
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="45%" stop-color="#e8e8e8" />
+      <stop offset="85%" stop-color="#b8b8b8" />
+      <stop offset="100%" stop-color="#8a8a8a" />
     </linearGradient>
-    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4a2175" />
-      <stop offset="100%" stop-color="#69309c" />
+
+    <!-- River Gradient -->
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#808080" />
+      <stop offset="40%" stop-color="#d4d4d4" />
+      <stop offset="70%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#e5e5e5" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+
+    <!-- Dune 1 -->
+    <linearGradient id="duneLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d2d" />
+      <stop offset="60%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+
+    <!-- Dune 2 -->
+    <linearGradient id="duneRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#363636" />
+      <stop offset="50%" stop-color="#181818" />
+      <stop offset="100%" stop-color="#080808" />
+    </linearGradient>
+
+    <!-- Mist on horizon -->
+    <linearGradient id="mist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
   </defs>
 
   <style>
-    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .typewriter {
+      font-family: 'Courier New', Courier, 'Fira Code', monospace;
+      font-weight: 600;
+      letter-spacing: 3px;
+      fill: #141414;
+    }
   </style>
 
-  <!-- Outer frame -->
-  <rect x="2" y="2" width="846" height="236" rx="14" fill="url(#bg)" stroke="#8F63AA" stroke-width="2" />
-  <rect x="7" y="7" width="836" height="226" rx="10" fill="none" stroke="#BB8BDC" stroke-width="1" stroke-dasharray="6 4" stroke-opacity="0.4" />
+  <!-- Sky Canvas -->
+  <rect x="0" y="0" width="950" height="320" fill="url(#skyGrad)" />
 
-  <!-- Stars -->
-  <circle cx="85" cy="45" r="1.5" fill="#E8DFF0" opacity="0.6" />
-  <circle cx="160" cy="75" r="1" fill="#E8DFF0" opacity="0.4" />
-  <circle cx="240" cy="40" r="2" fill="#FFFFFF" opacity="0.8" />
-  <circle cx="340" cy="85" r="1.5" fill="#BB8BDC" opacity="0.5" />
-  <circle cx="560" cy="35" r="1" fill="#FFFFFF" opacity="0.5" />
-  <circle cx="640" cy="80" r="2" fill="#E8DFF0" opacity="0.8" />
-  <circle cx="720" cy="50" r="1.5" fill="#BB8BDC" opacity="0.6" />
-  <circle cx="110" cy="185" r="1" fill="#FFFFFF" opacity="0.4" />
+  <!-- Monospace Header Text -->
+  <text x="475" y="85" text-anchor="middle" class="typewriter" font-size="28">Welcome to Rithika's Github</text>
+  <text x="475" y="125" text-anchor="middle" class="typewriter" font-size="22">&lt;/&gt;</text>
 
-  <!-- Moon on top right -->
-  <circle cx="755" cy="65" r="32" fill="#BB8BDC" opacity="0.25" />
-  <circle cx="755" cy="65" r="24" fill="#F3E8FF" />
-  <circle cx="766" cy="58" r="20" fill="#2a1742" />
+  <!-- Distant mountain ridges -->
+  <path d="M 0 205 Q 180 185 360 195 Q 475 190 600 195 Q 780 180 950 200 L 950 320 L 0 320 Z" fill="#222222" />
+  <path d="M 0 215 Q 220 195 440 208 Q 660 198 950 215 L 950 320 L 0 320 Z" fill="#181818" />
 
-  <!-- City Skyline silhouettes -->
-  <path d="M 15 236 L 15 205 L 35 205 L 35 185 L 55 185 L 55 215 L 80 215 L 80 195 L 105 195 L 105 236 Z" fill="#0f061b" opacity="0.8" />
-  <path d="M 720 236 L 720 200 L 745 200 L 745 180 L 775 180 L 775 210 L 805 210 L 805 190 L 835 190 L 835 236 Z" fill="#0f061b" opacity="0.8" />
+  <!-- Winding River -->
+  <path d="M 475 195 
+           Q 460 215 480 235 
+           Q 510 255 450 280 
+           Q 390 300 480 320 
+           L 550 320 
+           Q 470 300 520 280 
+           Q 560 255 500 235 
+           Q 490 215 480 195 Z" 
+        fill="url(#riverGrad)" />
 
-  <!-- Corner cyber markings -->
-  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#BB8BDC" stroke-width="2.5" />
-  <path d="M 836 30 L 836 14 L 820 14" fill="none" stroke="#BB8BDC" stroke-width="2.5" />
-  <path d="M 14 210 L 14 226 L 30 226" fill="none" stroke="#BB8BDC" stroke-width="2.5" />
-  <path d="M 836 210 L 836 226 L 820 226" fill="none" stroke="#BB8BDC" stroke-width="2.5" />
+  <!-- Left rolling sand dunes -->
+  <path d="M 0 215 
+           Q 150 205 280 240 
+           Q 380 270 410 320 
+           L 0 320 Z" 
+        fill="url(#duneLeft)" />
 
-  <!-- Header text -->
-  <text x="425" y="44" text-anchor="middle" fill="#BB8BDC" class="mono" font-size="13">&gt; hello_world();</text>
-  <text x="425" y="86" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="34" font-weight="800" letter-spacing="3" filter="url(#glow)">| RITHIKA SRI |</text>
-  <text x="425" y="114" text-anchor="middle" fill="#E8DFF0" class="sans" font-size="13" font-weight="600" letter-spacing="1.5">CSE UNDERGRADUATE  •  DATA PIPELINES  •  DISTRIBUTED SYSTEMS</text>
+  <path d="M 0 245 
+           Q 120 230 220 270 
+           Q 290 300 320 320 
+           L 0 320 Z" 
+        fill="#080808" />
 
-  <!-- Divider -->
-  <line x1="200" y1="128" x2="650" y2="128" stroke="#8F63AA" stroke-width="1" stroke-opacity="0.6" />
+  <!-- Right rolling sand dunes -->
+  <path d="M 950 215 
+           Q 800 205 670 240 
+           Q 570 270 540 320 
+           L 950 320 Z" 
+        fill="url(#duneRight)" />
 
-  <!-- Specialization Pills -->
-  <g transform="translate(135, 142)">
-    <rect x="0" y="0" width="135" height="24" rx="6" fill="url(#pillGrad)" stroke="#BB8BDC" stroke-width="1" />
-    <text x="67" y="16" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="11" font-weight="600">&lt;/&gt; Software Dev</text>
+  <path d="M 950 245 
+           Q 830 230 730 270 
+           Q 660 300 630 320 
+           L 950 320 Z" 
+        fill="#050505" />
 
-    <rect x="145" y="0" width="140" height="24" rx="6" fill="url(#pillGrad)" stroke="#BB8BDC" stroke-width="1" />
-    <text x="215" y="16" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="11" font-weight="600">📊 Data Engineering</text>
-
-    <rect x="295" y="0" width="145" height="24" rx="6" fill="url(#pillGrad)" stroke="#BB8BDC" stroke-width="1" />
-    <text x="367" y="16" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="11" font-weight="600">⚡ Distributed Systems</text>
-
-    <rect x="450" y="0" width="130" height="24" rx="6" fill="url(#pillGrad)" stroke="#BB8BDC" stroke-width="1" />
-    <text x="515" y="16" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="11" font-weight="600">🧠 AI / ML</text>
-  </g>
-
-  <!-- Language Tags -->
-  <g transform="translate(185, 178)">
-    <rect x="0" y="0" width="65" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="32" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">Python</text>
-
-    <rect x="75" y="0" width="70" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="110" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">PySpark</text>
-
-    <rect x="155" y="0" width="55" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="182" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">Java</text>
-
-    <rect x="220" y="0" width="85" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="262" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">TypeScript</text>
-
-    <rect x="315" y="0" width="50" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="340" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">SQL</text>
-
-    <rect x="375" y="0" width="45" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="397" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">Go</text>
-
-    <rect x="430" y="0" width="50" height="20" rx="4" fill="#1b0e2b" stroke="#8F63AA" stroke-width="0.8" />
-    <text x="455" y="14" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="11">C++</text>
-  </g>
+  <!-- Subtle Mist overlay at horizon -->
+  <rect x="0" y="180" width="950" height="30" fill="url(#mist)" />
 </svg>
