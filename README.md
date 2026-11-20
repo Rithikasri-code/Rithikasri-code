@@ -1,118 +1,230 @@
+<!-- ==================== HEADER BANNER ==================== -->
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,13,22,35&height=220&section=header&text=Rithika%20Sri&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Data%20Pipelines%20%26%20Distributed%20Systems&descSize=18&descAlignY=60&descAlign=50" width="100%" />
-
-<!-- Dynamic Typing Subtitle -->
-<a href="https://github.com/Rithikasri-code">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+distributed+data+pipelines+%26+ETL+systems;AST+parsing+%26+dependency-graph+code+analysis;Worker-owned+credit+scoring+on+India's+AA+framework;High-performance+local-first+and+browser-native+apps" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,18,24,30&height=220&section=header&text=RITHIKA%20SRI&fontSize=42&fontColor=ffffff&desc=%3E%20hello_world()%3B%20%7C%20CS%20Undergraduate%20%26%20Software%20Engineer&descSize=16&descAlignY=60&descAlign=50&stroke=a855f7&strokeWidth=2" width="100%" />
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Rithikasri-code?label=Followers&style=flat-square&color=2563EB&logo=github)](https://github.com/Rithikasri-code)
-[![GitHub stars](https://img.shields.io/github/stars/Rithikasri-code?style=flat-square&color=F59E0B&logo=apachespark)](https://github.com/Rithikasri-code)
-[![Commit Activity](https://img.shields.io/github/commit-activity/y/Rithikasri-code/gig-credit-passport?style=flat-square&color=10B981&label=Commit%20Activity)](https://github.com/Rithikasri-code)
-[![Email](https://img.shields.io/badge/Contact-Email-blue?style=flat-square&logo=gmail&logoColor=white&color=EA4335)](mailto:rithikasri739@gmail.com)
+<!-- Status Bar Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/CS_Undergraduate-Specializing_in_Systems-581c87?style=flat-square&labelColor=1e1b4b&color=7c3aed" alt="Role" />
+  <img src="https://img.shields.io/badge/Focus-Data_Engineering_%26_Distributed_Systems-581c87?style=flat-square&labelColor=1e1b4b&color=9333ea" alt="Focus" />
+  <img src="https://img.shields.io/badge/Mindset-Build_%E2%80%A2_Verify_%E2%80%A2_Scale-581c87?style=flat-square&labelColor=1e1b4b&color=c084fc" alt="Mindset" />
+</p>
 
-</div>
-
-<br/>
-
-### 🧭 About & Engineering Philosophy
-
-I build software with a bias toward **deterministic data flow, zero-fluff architecture, and verifiable safety**. Whether structuring multi-terabyte data lakes on GCP, querying AST syntax trees with Tree-sitter, or designing explainable scoring protocols on India’s Account Aggregator stack, I focus on systems that remain performant and explainable under real-world constraints.
-
-```yaml
-core_focus:
-  data_engineering: ["PySpark", "BigQuery", "Medallion Architecture", "Cloud Storage"]
-  systems_tooling: ["Tree-sitter AST", "Dependency Resolution Graphs", "Git Internals"]
-  protocols_fintech: ["Account Aggregator Framework", "OCR Signal Cross-Verification"]
-  local_first_web: ["WebGL / Three.js", "IndexedDB Client State", "Web Components"]
-```
-
----
-
-### 💻 Stack & Tooling
-
-<div align="center">
-
-| Domain | Technologies & Libraries |
-| :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
-| **Data & Cloud** | ![Spark](https://img.shields.io/badge/-Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![BigQuery](https://img.shields.io/badge/-Google_BigQuery-669DF6?style=flat-square&logo=googlecloud&logoColor=white) ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **Frameworks** | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Three.js](https://img.shields.io/badge/-Three.js-black?style=flat-square&logo=threedotjs&logoColor=white) ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
-| **Internals** | ![Tree-sitter](https://img.shields.io/badge/-Tree--sitter-4B5563?style=flat-square) ![IndexedDB](https://img.shields.io/badge/-IndexedDB-4F46E5?style=flat-square) ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) |
+<!-- Social Connect Badges -->
+<p align="center">
+  <a href="https://github.com/Rithikasri-code?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Repositories-3b0764?style=flat-square&logo=github&logoColor=white&labelColor=1e1b4b" alt="GitHub Repos" />
+  </a>
+  <a href="mailto:rithikasri739@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-6b21a8?style=flat-square&logo=gmail&logoColor=white&labelColor=1e1b4b" alt="Email" />
+  </a>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-7e22ce?style=flat-square&logo=linkedin&logoColor=white&labelColor=1e1b4b" alt="LinkedIn" />
+  </a>
+</p>
 
 </div>
 
 ---
 
-### 🔬 Engineering Showcase
+### ✦ About Me
 
-<table>
+I'm **Rithika Sri**, a Computer Science student and software engineer focused on **Data Engineering, Distributed Systems, and Developer Tooling**.
+
+I enjoy turning foundational programming concepts into resilient, working software—understanding how large-scale systems fit together, optimizing data locality, and building verifiable pipelines. My engineering interests span **distributed ETL pipelines (PySpark & BigQuery), AST-level code analysis (Tree-sitter), and local-first offline architectures**.
+
+Outside of coding, I focus on system design fundamentals, technical writing, and building tools that eliminate developer friction.
+
+---
+
+### 🛠 Tech Stack
+
+#### ✦ Languages & Markup
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,java,ts,js,go,cpp,html,css&theme=dark" alt="Languages" />
+  </a>
+</p>
+<sub><b>Programming:</b> Python • Java • TypeScript • JavaScript • Go • C++ • SQL &nbsp;|&nbsp; <b>Markup & Web:</b> HTML5 • CSS3</sub>
+
+<br/><br/>
+
+#### ✦ Data, Cloud & Infrastructure
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,gcp,aws,docker,linux,githubactions&theme=dark" alt="Cloud & DevOps" />
+  </a>
+</p>
+<sub><b>Data Platforms & Storage:</b> Apache Spark • Google BigQuery • Cloud Storage • PostgreSQL • SQLite &nbsp;|&nbsp; <b>Cloud:</b> GCP • AWS • Docker</sub>
+
+<br/><br/>
+
+#### ✦ Frameworks & Developer Tooling
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,threejs,vite,git,github,vscode,idea&theme=dark" alt="Frameworks & Tools" />
+  </a>
+</p>
+<sub><b>Libraries & Engines:</b> FastAPI • React • Next.js • Three.js (WebGL) • Vite • Alembic &nbsp;|&nbsp; <b>IDEs & Version Control:</b> VS Code • IntelliJ IDEA • Git • GitHub</sub>
+
+<br/><br/>
+
+#### ✦ Technical Foundations
+<p align="left">
+  <img src="https://img.shields.io/badge/Data_Structures-1e1b4b?style=flat-square&color=6b21a8" />
+  <img src="https://img.shields.io/badge/Algorithms-1e1b4b?style=flat-square&color=6b21a8" />
+  <img src="https://img.shields.io/badge/Distributed_Data_Pipelines-1e1b4b?style=flat-square&color=6b21a8" />
+  <img src="https://img.shields.io/badge/Tree--sitter_AST_Parsing-1e1b4b?style=flat-square&color=6b21a8" />
+  <img src="https://img.shields.io/badge/Database_Internals-1e1b4b?style=flat-square&color=6b21a8" />
+  <img src="https://img.shields.io/badge/Account_Aggregator_Spec-1e1b4b?style=flat-square&color=6b21a8" />
+</p>
+
+---
+
+### 📁 Featured Projects
+
+<table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🛡️ <a href="https://github.com/Rithikasri-code/gig-credit-passport">gig-credit-passport</a></h3>
-      <p><b>Worker-owned financial identity & explainable credit scoring engine.</b></p>
-      <p>Architected around India’s RBI-regulated Account Aggregator (AA) framework. Combines consent-driven bank statements with an OCR signal parser for gig platform earnings, yielding a transparent, non-predatory credit score.</p>
-      <p><code>FastAPI</code> • <code>Alembic</code> • <code>PostgreSQL</code> • <code>Docker</code> • <code>AA Spec</code></p>
+    <!-- Project 1 -->
+    <td width="50%" valign="top" style="border: 1px solid #7c3aed; border-radius: 8px; padding: 16px; background-color: #0b0f19;">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,24&height=90&text=PROJECT%20/%2001&fontSize=16&fontColor=c084fc&stroke=7c3aed&strokeWidth=1" width="100%" />
+      </div>
+      <br/>
+      <b><font size="4">🛡️ Gig Credit Passport</font></b><br/>
+      <sub><code>PYTHON</code> • <code>FINTECH & SCORING PIPELINE</code></sub>
+      <p>A worker-owned, explainable financial passport & credit scoring engine built on India's Account Aggregator framework with OCR cross-verification.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Alembic-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/PostgreSQL-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Docker-1e1b4b?style=flat-square&color=7c3aed" />
+      </p>
+      <a href="https://github.com/Rithikasri-code/gig-credit-passport">
+        <img src="https://img.shields.io/badge/View_repository_%E2%86%97-9333ea?style=for-the-badge&logoColor=white" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🔍 <a href="https://github.com/Rithikasri-code/impact-engine">impact-engine</a></h3>
-      <p><b>Semantic code search & blast-radius impact analysis engine.</b></p>
-      <p>Constructs deep function-level call-graphs and symbol tables across multi-language repos (Python/Go) using Tree-sitter AST walking. Predicts breaking upstream dependencies and historical regression probabilities.</p>
-      <p><code>Python</code> • <code>Go</code> • <code>Tree-sitter</code> • <code>Graph Store</code> • <code>AST</code></p>
+
+    <!-- Project 2 -->
+    <td width="50%" valign="top" style="border: 1px solid #7c3aed; border-radius: 8px; padding: 16px; background-color: #0b0f19;">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,24&height=90&text=PROJECT%20/%2002&fontSize=16&fontColor=c084fc&stroke=7c3aed&strokeWidth=1" width="100%" />
+      </div>
+      <br/>
+      <b><font size="4">🔍 Impact Engine</font></b><br/>
+      <sub><code>PYTHON / GO</code> • <code>AST COMPILER TOOLING</code></sub>
+      <p>Semantic code search & blast-radius impact analysis engine using Tree-sitter AST syntax trees to predict breaking historical bug-fix regressions.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Go-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Tree--sitter-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Call--Graph-1e1b4b?style=flat-square&color=7c3aed" />
+      </p>
+      <a href="https://github.com/Rithikasri-code/impact-engine">
+        <img src="https://img.shields.io/badge/View_repository_%E2%86%97-9333ea?style=for-the-badge&logoColor=white" />
+      </a>
     </td>
   </tr>
+
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">⚡ <a href="https://github.com/Rithikasri-code/flat-sql">flat-sql</a></h3>
-      <p><b>Self-contained relational SQL engine running over JSON files.</b></p>
-      <p>Zero-dependency SQL query engine featuring full AST query parsing, transactional locks, B-tree-style index trees, and an integrated diagnostic admin dashboard—operating entirely without an external SQL server daemon.</p>
-      <p><code>PHP</code> • <code>Storage Internals</code> • <code>Query Planner</code> • <code>JSON</code></p>
+    <!-- Project 3 -->
+    <td width="50%" valign="top" style="border: 1px solid #7c3aed; border-radius: 8px; padding: 16px; background-color: #0b0f19;">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,24&height=90&text=PROJECT%20/%2003&fontSize=16&fontColor=c084fc&stroke=7c3aed&strokeWidth=1" width="100%" />
+      </div>
+      <br/>
+      <b><font size="4">⚡ Flat SQL</font></b><br/>
+      <sub><code>PHP</code> • <code>RELATIONAL STORAGE ENGINE</code></sub>
+      <p>Self-contained SQL query engine over flat JSON files with full query planner, B-tree indexes, ACID-style journal, and an integrated diagnostic web admin suite.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PHP-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Query_Planner-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/JSON_Store-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Admin_UI-1e1b4b?style=flat-square&color=7c3aed" />
+      </p>
+      <a href="https://github.com/Rithikasri-code/flat-sql">
+        <img src="https://img.shields.io/badge/View_repository_%E2%86%97-9333ea?style=for-the-badge&logoColor=white" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="left">📈 <a href="https://github.com/Rithikasri-code/git-pulse">git-pulse</a></h3>
-      <p><b>Zero-dependency local Git repository telemetry & dashboard.</b></p>
-      <p>Real-time developer dashboard providing instant visibility into local Git repositories: branch topology, uncommitted churn, hot-file blast radiuses, and author metrics without sending code to third-party SaaS servers.</p>
-      <p><code>JavaScript</code> • <code>Git Plumbing</code> • <code>WebSockets</code> • <code>Offline-First</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🏃 <a href="https://github.com/Rithikasri-code/metro-runner">metro-runner</a></h3>
-      <p><b>High-performance 3D endless runner in browser WebGL.</b></p>
-      <p>Deterministic 60 FPS runner simulation engineered in TypeScript and Three.js with custom fixed-step physics integration, procedural obstacle pooling, and Playwright automated gameplay test suites.</p>
-      <p><code>TypeScript</code> • <code>Three.js</code> • <code>Vite</code> • <code>Playwright</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🎯 <a href="https://github.com/Rithikasri-code/sprint-flow">sprint-flow</a></h3>
-      <p><b>Local-first Pomodoro & sprint productivity workspace.</b></p>
-      <p>Engineered with an offline-first philosophy using client-side IndexedDB persistence, custom analytics widgets, zero tracking, and no required external database connections.</p>
-      <p><code>React</code> • <code>TypeScript</code> • <code>IndexedDB</code> • <code>Vite</code></p>
+
+    <!-- Project 4 -->
+    <td width="50%" valign="top" style="border: 1px solid #7c3aed; border-radius: 8px; padding: 16px; background-color: #0b0f19;">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,24&height=90&text=PROJECT%20/%2004&fontSize=16&fontColor=c084fc&stroke=7c3aed&strokeWidth=1" width="100%" />
+      </div>
+      <br/>
+      <b><font size="4">🏃 Metro Runner</font></b><br/>
+      <sub><code>TYPESCRIPT</code> • <code>3D GRAPHICS & SIMULATION</code></sub>
+      <p>High-performance 3D endless runner in browser WebGL featuring deterministic fixed-step physics, dynamic asset pooling, and Playwright automated tests.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Three.js-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Vite-1e1b4b?style=flat-square&color=7c3aed" />
+        <img src="https://img.shields.io/badge/Playwright-1e1b4b?style=flat-square&color=7c3aed" />
+      </p>
+      <a href="https://github.com/Rithikasri-code/metro-runner">
+        <img src="https://img.shields.io/badge/View_repository_%E2%86%97-9333ea?style=for-the-badge&logoColor=white" />
+      </a>
     </td>
   </tr>
 </table>
 
+<br/>
+
+<details>
+  <summary><b>✦ Gig Credit Passport — Features & technical highlights</b></summary>
+  <ul>
+    <li>Consent-driven financial data ingestion via India's RBI Account Aggregator protocol.</li>
+    <li>Supplementary OCR-based parsing for self-reported gig platform invoices with cross-verification.</li>
+    <li>Fully containerized backend architecture with FastAPI, Alembic schema migrations, and PostgreSQL.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>✦ Impact Engine — Features & technical highlights</b></summary>
+  <ul>
+    <li>Safe filesystem walker with path-traversal and symlink defense for untrusted repositories.</li>
+    <li>Tree-sitter AST extraction for Python & Go (functions, classes, calls, and hash-based diffing).</li>
+    <li>Graph database mapping function call relationships to predict regression blast radiuses.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>✦ Flat SQL — Features & technical highlights</b></summary>
+  <ul>
+    <li>Recursive-descent SQL lexer & AST parser supporting SELECT, JOIN, GROUP BY, and subqueries.</li>
+    <li>In-memory & disk-based transactional storage engine with file-level concurrency locks.</li>
+    <li>Integrated browser dashboard for schema inspection, query profiling, and live table viewing.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>✦ Metro Runner — Features & technical highlights</b></summary>
+  <ul>
+    <li>Deterministic 60 FPS runner simulation loop using fixed-step delta time calculation.</li>
+    <li>Three.js procedural track generation, obstacle recycling, and dynamic camera choreography.</li>
+    <li>Headless E2E integration test suite built with Playwright.</li>
+  </ul>
+</details>
+
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📈 GitHub Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rithikasri-code&show_icons=true&theme=nightowl&hide_border=true&title_color=38BDF8&text_color=94A3B8&icon_color=38BDF8&bg_color=0B0F19" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rithikasri-code&layout=compact&theme=nightowl&hide_border=true&title_color=38BDF8&text_color=94A3B8&bg_color=0B0F19" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Rithikasri-code&show_icons=true&theme=tokyonight&hide_border=true&title_color=c084fc&text_color=94a3b8&icon_color=a855f7&bg_color=0b0f19" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rithikasri-code&layout=compact&theme=tokyonight&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0b0f19" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rithikasri-code&theme=nightowl&hide_border=true&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&background=0B0F19" width="99%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rithikasri-code&theme=tokyonight&hide_border=true&stroke=a855f7&ring=a855f7&fire=a855f7&currStreakLabel=c084fc&background=0b0f19" width="99%" />
 </div>
 
 ---
 
-<div align="center">
-  <p><i>"Complexity is the enemy of reliability. Build it simple, build it verified."</i></p>
-  <a href="mailto:rithikasri739@gmail.com"><img src="https://img.shields.io/badge/Let's_Talk-rithikasri739@gmail.com-007ACC?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,13,22,35&height=90&section=footer" width="100%" />
+<p align="center">
+  <sub>Designed with precision. Always learning, building, and exploring.</sub><br/>
+  <a href="mailto:rithikasri739@gmail.com"><b>Get in touch ✉️</b></a>
+</p>
