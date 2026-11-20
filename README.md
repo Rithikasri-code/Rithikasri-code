@@ -1,25 +1,23 @@
 <p align="center">
-  <img src="banner.svg" alt="Welcome to Rithika's Github" width="100%" />
+  <img src="banner.svg" alt="Rithika Sri — purple pixel-art developer banner" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/Rithikasri-code?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:rithikasri739@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://leetcode.com" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/CSE%20Undergraduate-Data%20%26%20Systems-8F63AA?style=flat-square&labelColor=241B2D" alt="CSE Undergraduate" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Engineering%20%26%20Distributed%20Systems-BB8BDC?style=flat-square&labelColor=241B2D" alt="Software Engineering" />
+  <img src="https://img.shields.io/badge/Mindset-Code%20%E2%80%A2%20Build%20%E2%80%A2%20Learn-8F63AA?style=flat-square&labelColor=241B2D" alt="Code, Build, Learn" />
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-8760A6?style=flat-square&logo=linkedin&logoColor=white&labelColor=241B2D" alt="LinkedIn" /></a>
+  <a href="https://github.com/Rithikasri-code?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repositories-8760A6?style=flat-square&logo=github&logoColor=white&labelColor=241B2D" alt="Repositories" /></a>
+  <a href="mailto:rithikasri739@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-Contact-8760A6?style=flat-square&logo=gmail&logoColor=white&labelColor=241B2D" alt="Email" /></a>
+  <a href="https://leetcode.com" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Profile-8760A6?style=flat-square&logo=leetcode&logoColor=white&labelColor=241B2D" alt="LeetCode" /></a>
 </p>
 
 <br/>
 
-<h2 align="center"> <em>About me</em> </h2>
+<h2 align="center"> <em>✦ About Me </em> </h2>
 
 <table>
   <tr>
@@ -28,7 +26,7 @@
         Hello There! <em><b>I'm Rithika Sri</b></em>, a Computer Science student and software engineer focused on <b>Data Engineering &amp; Distributed Systems</b>.
       </p>
       <p>
-        I enjoy understanding how complex systems fit together, optimizing data locality, and architecting robust, verifiable data pipelines. My core focus lies in turning theoretical system concepts into resilient software—from <b>distributed ETL architectures (PySpark, BigQuery)</b> to <b>AST-level code analysis (Tree-sitter)</b> and <b>local-first storage engines</b>.
+        I enjoy turning theoretical system concepts into resilient, working software—understanding how distributed pipelines scale, optimizing data locality, and building verifiable software. My core focus spans <b>distributed ETL (PySpark, BigQuery), AST-level static analysis (Tree-sitter), and local-first storage engines</b>.
       </p>
       <br/>
       <p>
@@ -47,32 +45,32 @@
 <br/>
 <br/>
 
-<h2 align="center"> <em> Technologies </em> </h2>
+<h2 align="center"> <em>🛠 Tech Stack </em> </h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_Spark-000000?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_BigQuery-000000?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-000000?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=py,java,ts,js,go,cpp,html&theme=dark" alt="Languages" />
+</p>
+<p align="center">
+  <b>Programming:</b> <code>Python</code> · <code>Java</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>Go</code> · <code>C++</code> · <code>SQL</code> &nbsp;|&nbsp; <b>Markup:</b> <code>HTML5</code> · <code>CSS3</code>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,gcp,aws,docker,linux,githubactions&theme=dark" alt="Platforms" />
+</p>
+<p align="center">
+  <code>Apache Spark</code> · <code>Google BigQuery</code> · <code>Cloud Storage</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>GCP</code> · <code>AWS</code>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,idea,git,github,fastapi,react,threejs&theme=dark" alt="Tools" />
+</p>
+<p align="center">
+  <code>Visual Studio Code</code> · <code>IntelliJ IDEA</code> · <code>Git</code> · <code>GitHub</code> · <code>FastAPI</code> · <code>React</code> · <code>Three.js</code> · <code>Vite</code>
 </p>
 
 <br/>
 
-<h2 align="center"> <em> Featured Projects </em> </h2>
+<h2 align="center"> <em>📂 Featured Projects </em> </h2>
 
 <p align="center">
   <a href="https://github.com/Rithikasri-code/gig-credit-passport">
@@ -94,18 +92,16 @@
 
 <br/>
 
-<h2 align="center"> <em> Statistics </em> </h2>
+<h2 align="center"> <em>📊 Statistics </em> </h2>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rithikasri-code&show_icons=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=ffffff&hide_border=false" width="48%" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Rithikasri-code&theme=dark&background=000000&hide_border=false&sideNums=ffffff&currStreakNum=ffffff&fire=ffffff&ring=ffffff&stroke=ffffff&currStreakLabel=ffffff" width="48%" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rithikasri-code&show_icons=true&bg_color=201725&title_color=C596E6&text_color=E8DFF0&icon_color=B986D9&border_color=8F63AA" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=Rithikasri-code&theme=dark&background=201725&border=8F63AA&stroke=8F63AA&ring=C596E6&fire=C596E6&currStreakNum=E8DFF0&sideNums=E8DFF0&currStreakLabel=C596E6" width="48%" />
+</p>
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rithikasri-code&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=false" width="100%" />
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rithikasri-code&bg_color=201725&color=C596E6&line=BB8BDC&point=E8DFF0&area=true&hide_border=false" width="100%" />
+</p>
 
 <br/>
 

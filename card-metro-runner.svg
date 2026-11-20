@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 280" width="410" height="280">
   <defs>
-    <linearGradient id="cardBg4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141414" />
-      <stop offset="100%" stop-color="#0a0a0a" />
+    <linearGradient id="pbg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1030" />
+      <stop offset="100%" stop-color="#12081f" />
     </linearGradient>
   </defs>
   <style>
@@ -10,62 +10,61 @@
     .mono { font-family: 'Fira Code', Consolas, monospace; }
   </style>
 
-  <rect x="2" y="2" width="406" height="276" rx="10" fill="url(#cardBg4)" stroke="#2e2e2e" stroke-width="1.5" />
+  <rect x="2" y="2" width="406" height="276" rx="10" fill="url(#pbg4)" stroke="#8F63AA" stroke-width="1.5" />
 
   <!-- Top Graphic Box -->
-  <rect x="14" y="14" width="382" height="100" rx="6" fill="#050505" stroke="#1f1f1f" stroke-width="1" />
+  <rect x="14" y="14" width="382" height="100" rx="6" fill="#150a24" stroke="#4a2175" stroke-width="1" />
   
-  <!-- Subtle Moon -->
-  <circle cx="355" cy="40" r="14" fill="#262626" />
-  <circle cx="355" cy="40" r="10" fill="#e5e5e5" />
-  <circle cx="360" cy="37" r="8" fill="#050505" />
+  <circle cx="355" cy="40" r="14" fill="#BB8BDC" opacity="0.3" />
+  <circle cx="355" cy="40" r="10" fill="#E8DFF0" />
+  <circle cx="360" cy="37" r="8" fill="#150a24" />
 
   <!-- 3D Runner Grid / Perspective Graphic -->
-  <line x1="205" y1="35" x2="140" y2="105" stroke="#737373" stroke-width="1.5" />
-  <line x1="205" y1="35" x2="185" y2="105" stroke="#525252" stroke-width="1.2" />
-  <line x1="205" y1="35" x2="225" y2="105" stroke="#525252" stroke-width="1.2" />
-  <line x1="205" y1="35" x2="270" y2="105" stroke="#737373" stroke-width="1.5" />
+  <line x1="205" y1="35" x2="140" y2="105" stroke="#BB8BDC" stroke-width="1.5" />
+  <line x1="205" y1="35" x2="185" y2="105" stroke="#8F63AA" stroke-width="1.2" />
+  <line x1="205" y1="35" x2="225" y2="105" stroke="#8F63AA" stroke-width="1.2" />
+  <line x1="205" y1="35" x2="270" y2="105" stroke="#BB8BDC" stroke-width="1.5" />
   
-  <line x1="180" y1="58" x2="230" y2="58" stroke="#525252" stroke-width="1" />
-  <line x1="165" y1="78" x2="245" y2="78" stroke="#737373" stroke-width="1.2" />
-  <line x1="145" y1="98" x2="265" y2="98" stroke="#a3a3a3" stroke-width="1.5" />
+  <line x1="180" y1="58" x2="230" y2="58" stroke="#8F63AA" stroke-width="1" />
+  <line x1="165" y1="78" x2="245" y2="78" stroke="#BB8BDC" stroke-width="1.2" />
+  <line x1="145" y1="98" x2="265" y2="98" stroke="#E8DFF0" stroke-width="1.5" />
 
   <!-- Runner Silhouette -->
-  <circle cx="205" cy="62" r="5" fill="#ffffff" />
-  <line x1="205" y1="67" x2="205" y2="82" stroke="#ffffff" stroke-width="2" />
-  <line x1="205" y1="72" x2="197" y2="79" stroke="#ffffff" stroke-width="1.5" />
-  <line x1="205" y1="72" x2="213" y2="79" stroke="#ffffff" stroke-width="1.5" />
+  <circle cx="205" cy="62" r="5" fill="#FFFFFF" />
+  <line x1="205" y1="67" x2="205" y2="82" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="205" y1="72" x2="197" y2="79" stroke="#FFFFFF" stroke-width="1.5" />
+  <line x1="205" y1="72" x2="213" y2="79" stroke="#FFFFFF" stroke-width="1.5" />
 
   <!-- Tag: PROJECT / 04 -->
-  <rect x="24" y="22" width="75" height="18" rx="4" fill="#1c1c1c" stroke="#333333" stroke-width="0.8" />
-  <text x="61" y="34" text-anchor="middle" fill="#a3a3a3" class="mono" font-size="9" font-weight="700">PROJECT / 04</text>
+  <rect x="24" y="22" width="75" height="18" rx="4" fill="#2d1747" stroke="#8F63AA" stroke-width="0.8" />
+  <text x="61" y="34" text-anchor="middle" fill="#BB8BDC" class="mono" font-size="9" font-weight="700">PROJECT / 04</text>
 
   <!-- Title & Subtitle -->
   <text x="18" y="136" fill="#FFFFFF" class="sans" font-size="15" font-weight="700">🏃 metro-runner</text>
-  <text x="18" y="152" fill="#888888" class="sans" font-size="9.5" font-weight="600" letter-spacing="1">TYPESCRIPT  •  3D WEBGL GRAPHICS</text>
+  <text x="18" y="152" fill="#BB8BDC" class="sans" font-size="9.5" font-weight="600" letter-spacing="1">TYPESCRIPT  •  3D WEBGL GRAPHICS</text>
 
   <!-- Description -->
-  <text x="18" y="172" fill="#cccccc" class="sans" font-size="11">High-performance 3D endless runner in browser WebGL</text>
-  <text x="18" y="188" fill="#cccccc" class="sans" font-size="11">with fixed-step physics and Playwright automated tests.</text>
+  <text x="18" y="172" fill="#D1C4E9" class="sans" font-size="11">High-performance 3D endless runner in browser WebGL</text>
+  <text x="18" y="188" fill="#D1C4E9" class="sans" font-size="11">with fixed-step physics and Playwright automated tests.</text>
 
   <!-- Tech tags -->
   <g transform="translate(18, 204)">
-    <rect x="0" y="0" width="65" height="18" rx="4" fill="#171717" stroke="#333333" stroke-width="0.8" />
-    <text x="32" y="13" text-anchor="middle" fill="#d4d4d4" class="mono" font-size="9">TYPESCRIPT</text>
+    <rect x="0" y="0" width="65" height="18" rx="4" fill="#2d1747" stroke="#683994" stroke-width="0.8" />
+    <text x="32" y="13" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="9">TYPESCRIPT</text>
 
-    <rect x="71" y="0" width="55" height="18" rx="4" fill="#171717" stroke="#333333" stroke-width="0.8" />
-    <text x="98" y="13" text-anchor="middle" fill="#d4d4d4" class="mono" font-size="9">THREE.JS</text>
+    <rect x="71" y="0" width="55" height="18" rx="4" fill="#2d1747" stroke="#683994" stroke-width="0.8" />
+    <text x="98" y="13" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="9">THREE.JS</text>
 
-    <rect x="132" y="0" width="35" height="18" rx="4" fill="#171717" stroke="#333333" stroke-width="0.8" />
-    <text x="149" y="13" text-anchor="middle" fill="#d4d4d4" class="mono" font-size="9">VITE</text>
+    <rect x="132" y="0" width="35" height="18" rx="4" fill="#2d1747" stroke="#683994" stroke-width="0.8" />
+    <text x="149" y="13" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="9">VITE</text>
 
-    <rect x="173" y="0" width="65" height="18" rx="4" fill="#171717" stroke="#333333" stroke-width="0.8" />
-    <text x="205" y="13" text-anchor="middle" fill="#d4d4d4" class="mono" font-size="9">PLAYWRIGHT</text>
+    <rect x="173" y="0" width="65" height="18" rx="4" fill="#2d1747" stroke="#683994" stroke-width="0.8" />
+    <text x="205" y="13" text-anchor="middle" fill="#E8DFF0" class="mono" font-size="9">PLAYWRIGHT</text>
   </g>
 
   <!-- Button -->
   <g transform="translate(18, 236)">
-    <rect x="0" y="0" width="125" height="26" rx="5" fill="#ffffff" />
-    <text x="62" y="17" text-anchor="middle" fill="#000000" class="sans" font-size="10.5" font-weight="700">View repository ↗</text>
+    <rect x="0" y="0" width="125" height="26" rx="5" fill="#8F63AA" />
+    <text x="62" y="17" text-anchor="middle" fill="#FFFFFF" class="sans" font-size="10.5" font-weight="700">View repository ↗</text>
   </g>
 </svg>
